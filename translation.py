@@ -1,53 +1,52 @@
 class Translation(object):
 
-    START_TEXT = """Hello,
-This is a Telegram URL Upload Bot!
-<b>Please send me any Direct download URL link, I can upload to telegram as File/Video</b>
-/help for more details..
-Support Channel : @BoburjonVlogs
+    START_TEXT = """<b>Bonjour, 
+    Il s'agit d'un bot de téléchargement d'URL Telegram ! 
+    Veuillez m'envoyer tout lien URL de téléchargement direct, je peux télécharger sur télégramme en tant que fichier/vidéo </b>
+/help pour plus de détails..Canal d'assistance : https://t.me/AD_tecknobot
 """
 
-    HELP_USER = """Hai I'am a URL Uploader bot..
+    HELP_USER = """Hi  je suis jojo_url_uploader_bot ..
     
-1. Send url (Link | New Name with Extension).
-2. Send Custom Thumbnail (Optional).
-3. Select the button.
-   SVideo - Give File as video with Screenshots
-   DFile  - Give File with Screenshots
-   Video  - Give File as video without Screenshots
-   DFile  - Give File without Screenshots
-Support Channel : @BoburjonVlogs
+1. Envoyer l'URL (Lien | Nouveau nom avec extension).
+2. Envoyer une vignette personnalisée (facultatif).
+3. Sélectionnez le bouton.
+   SVideo - Donner le fichier en vidéo avec des captures d'écran
+   DFile  - Donner un fichier avec des captures d'écran
+   Video  - Donner le fichier sous forme de vidéo sans captures d'écran
+   DFile  - Donner un fichier sans captures d'écran
+Canal d'assistance : https://t.me/AD_tecknobot
 """
 
-    FORMAT_SELECTION = """Select the desired format: <a href='{}'>file size might be approximate</a>
+    FORMAT_SELECTION = """Sélectionnez le format souhaité: <a href='{}'>file size might be approximate</a>
     
-Send your custum thumbnail if required.
-You can use /deletethumbnail to delete the auto-generated thumbnail."""
+Envoyez votre vignette personnalisée si nécessaire.
+Vous pouvez utiliser /deletethumbnail pour supprimer la vignette générée automatiquement."""
     
-    SET_CUSTOM_USERNAME_PASSWORD = """If you want to download premium videos, provide in the following format:
+    SET_CUSTOM_USERNAME_PASSWORD = """Si vous souhaitez télécharger des vidéos premium, fournissez-les au format suivant :
 URL | newfilename | username | password"""
 
 
-    UPGRADE_TEXT = "<b>👉 Create own Clone Bot.. </b>  \n\n<a href='https://github.com/Boburjon04/uploader0404'>Click here, Fork and deploy!!</a>"
+    UPGRADE_TEXT = "<b>👉 Create Bot.. </b>  \n\n<a href='http'>Click here, Fork and deploy!!</a>"
     
-    DOWNLOAD_START = "Trying to download your file..."
+    DOWNLOAD_START = "Essayer de télécharger votre fichier..."
     
-    UPLOAD_START = "Uploading now.."
+    UPLOAD_START = "Télécharger maintenant.."
     
-    AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS = "Downloaded in {} seconds. \n\nUploaded in {} seconds."
+    AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS = "Téléchargé en {} seconds. \n\nUploaded in {} seconds."
 
-    RCHD_TG_API_LIMIT = "Downloaded in {} seconds.\nDetected File Size: {}\nSorry. But, I cannot upload files greater than 1.95GB due to Telegram API limitations."
+    RCHD_TG_API_LIMIT = "Téléchargé en {} seconds.\nDetected File Size: {}\nSorry. Mais je ne peux pas télécharger de fichiers supérieurs à 1,95 Go en raison des limitations de l'API Telegram."
 
-    SAVED_CUSTOM_THUMB_NAIL = "Custom thumbnail saved. This will be permanent.\n\nUse /deletethumbnail to clear it."
+    SAVED_CUSTOM_THUMB_NAIL = "Vignette personnalisée enregistrée. Ce sera définitif.\n\nUtilisation /deletethumbnail pour l'effacer."
 
-    DEL_ETED_CUSTOM_THUMB_NAIL = "Custom thumbnail cleared succesfully."
+    DEL_ETED_CUSTOM_THUMB_NAIL = "Vignette personnalisée effacée avec succès."
 
     CUSTOM_CAPTION_UL_FILE = " "
 
-    SLOW_URL_DECED = "Gosh that seems to be a very slow URL. Since you were screwing my home, I am in no mood to download this file. Meanwhile, why don't you try this:==> https://shrtz.me/PtsVnf6 and get me a fast URL so that I can upload to Telegram, without me slowing down for other users."
+    SLOW_URL_DECED = "Gosh qui semble être une URL très lente. Puisque vous étiez en train de foutre en l'air ma maison, je ne suis pas d'humeur à télécharger ce fichier. En attendant, pourquoi n'essayez-vous pas ceci:==> https://shrtz.me/PtsVnf6 et obtenez-moi une URL rapide pour que je puisse télécharger sur Telegram, sans que je ralentisse pour les autres utilisateurs."
 
     NO_VOID_FORMAT_FOUND = "ERROR...\n<b>YouTubeDL</b> said: {}"
     
-    SHOW_THUMB = "Use /deletethumbnail to clear this thumbnail."
+    SHOW_THUMB = "Utilisation /deletethumbnail pour effacer cette vignette."
     
-    NO_THUMB = "No saved thumbnails Found!!\n\nSend an image to save it as your thumbnail permanently."    
+    NO_THUMB = "Aucune vignette enregistrée n'a été trouvée !!\n\nEnvoyez une image pour l'enregistrer en tant que vignette de façon permanente."    
